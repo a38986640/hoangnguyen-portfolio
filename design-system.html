@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Design system</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/custom.css" />
+    <link rel="stylesheet" href="transitions.css" />
+    <script type="module" src="swup.js"></script>
+    <!-- Hotjar Tracking Code for Portfolio -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3882261, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <!-- header-->
+
+    <div id="swup" class="transition-main">
+      <div class="scroll-watcher"></div>
+
+      <header class="menu">
+        <div class="container-xxl">
+          <!-- header-->
+          <nav
+            class="navbar navbar-expand-lg d-flex justify-content-between py-8"
+          >
+            <a class="navbar-brand logo" href="index.html">
+              <img
+                src="img/logo.svg"
+                alt="Vincent Nguyen"
+                class="d-inline-block align-text-top"
+              />
+            </a>
+
+            <button
+              class="navbar-toggler p-8"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              Menu
+            </button>
+
+            <div
+              class="collapse navbar-collapse mt-16 my-16 my-lg-0 py-16 py-lg-0"
+              id="navbarTogglerDemo02"
+            >
+              <ul class="navbar-nav ms-md-32 ms-sm-0">
+                <li class="nav-item">
+                  <a
+                    class="button button-next mx-16 mb-16 mb-md-0 pb-md-0 nav-link"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item my-16 my-lg-0">
+                  <a class="button button-next mx-16 nav-link" href="work.html"
+                    >Works</a
+                  >
+                </li>
+                <li class="nav-item dropdown mx-16 my-16 my-lg-0">
+                  <a
+                    class="dropdown-toggle nav-link active"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item p-8 active" href="q-sign.html"
+                        >Design system</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="q-sign.html">Q-sign</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="submit.html">Submit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="bulkbox.html"
+                        >Bulk Box</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="mx-16 nav-link my-16 my-lg-0" href="about.html"
+                    >About</a
+                  >
+                </li>
+              </ul>
+              <hr />
+              <div
+                class="px-lg-0 my-16 my-lg-0 navbar-collapse justify-content-end"
+              >
+                <a
+                  class="mx-16 d-flex my-16 my-lg-0"
+                  target="_blank"
+                  href="https://www.behance.net/vincentnguyen1710"
+                  ><img src="img/logo-behance.svg" alt="Behance"
+                /></a>
+                <a
+                  class="mx-16 d-flex my-16 my-lg-0"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/vincent-nguyen-0248a299/"
+                  ><img src="img/logo-linkedin.svg" alt="LinkedIn"
+                /></a>
+                <div
+                  class="navbar-nav mt-lg-0 mx-16 my-16 my-lg-0 d-inline-flex"
+                >
+                  <a
+                    target="_blank"
+                    class="btn secondary-button"
+                    href="https://drive.google.com/file/d/1fr3tEcWJPfj9YjsnXxYR5Sfix83xdKO5/view?usp=sharing"
+                    role="button"
+                    >Download my CV</a
+                  >
+                </div>
+                <div class="navbar-nav mx-16 my-16 my-lg-0">
+                  <a class="fw-bold" href="mailto: a38986640@gmail.com"
+                    >Email me</a
+                  >
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- header-->
+      <!-- Main body-->
+      <header class="d-flex hero-section">
+        <div class="row">
+          <div
+            class="col-lg-7 col-sm-12 align-self-center p-32 ps-xl-180 ps-md-128"
+          >
+            <h1 class="text-strong">Design system</h1>
+            <h4 class="text-weak mt-24">
+              This is from my portfolio which includes: Design Figma file and
+              HTML code guideline
+            </h4>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <img src="img/designsystem-hero.webp" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <div class="container-xxl mt-128">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="work.html">Work</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Design system
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <article class="container-xxl mt-80">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h3>Our Objectives</h3>
+
+            <ul class="mt-16">
+              <li>
+                I built this design system to practice my Figma skills and gain
+                knowledge about design systems. In addition, it also helps boost
+                my design efficiency
+              </li>
+              <li>Feel free to download these. I hope they help you.</li>
+            </ul>
+            <a
+              class="btn btn-primary primary-lg-button mt-32"
+              href="work.html"
+              role="button"
+              >Download Figma file</a
+            >
+            <a
+              target="_blank"
+              class="btn secondary-button mt-32 ms-md-32 ms-0"
+              href="https://drive.google.com/file/d/1fr3tEcWJPfj9YjsnXxYR5Sfix83xdKO5/view?usp=sharing"
+              role="button"
+              >Download source code</a
+            >
+          </div>
+          <div class="mt-16 mt-sm-0 col-lg-6 col-sm-12">
+            <h3 class="mt-40 mt-lg-0">Project info</h3>
+            <ul class="mt-16">
+              <li>My personal project, completed in 2024</li>
+              <li>Designed with Figma</li>
+              <li>Front-end developed using Bootstrap 5</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- Design part-->
+      <section class="design-part mt-md-128 mt-80">
+        <h1 class="text-center">Design part</h1>
+        <article class="bg-blue-20 py-40 py-md-80 mt-md-80 mt-40 border-1">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 align-self-center">
+                <h3>Fully responsive design</h3>
+                <p class="mt-16">
+                  In the mobile section design in Figma, you can resize the
+                  frame to see how the site displays across different screen
+                  sizes
+                </p>
+              </div>
+              <div class="col-md-6 col-sm-12 mt-24 mt-md-0">
+                <img src="img/fully-reponsive1.gif" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--End of container-->
+        </article>
+        <!-- Grid-->
+        <article class="text-center">
+          <div class="container-xxl">
+            <h2 class="mt-md-80 mt-40">Grid</h2>
+            <p class="mt-16">
+              Since I used the Bootstrap framework, I designed based on its grid
+              system. I created two grids: one for desktop and one for mobile.
+            </p>
+            <div class="row">
+              <div class="col-md-8 col-sm-12">
+                <div class="p-32 border-1 mt-48 bg-white rounded-4 h-100">
+                  <h4 class="text-center fw-bold">Desktop</h4>
+                  <p class="text-center">
+                    12 columns | 120px margin | 32px gutters
+                  </p>
+                  <figure>
+                    <img
+                      class="mt-48"
+                      src="img/grid-desktop.webp"
+                      alt="Desktop grid with 12 columns"
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 mt-32 mt-md-0">
+                <div class="p-32 border-1 mt-48 bg-white rounded-4 h-100">
+                  <h4 class="text-center fw-bold">Mobile</h4>
+                  <p class="text-center">4 columns | 32 margin | 16 gutters</p>
+                  <figure>
+                    <img
+                      class="mt-48"
+                      src="img/Grid-mobile.webp"
+                      alt="Desktop grid with 12 columns"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Image ratio-->
+        <article class="mt-md-80 mt-40 py-40 py-md-80 bg-blue-20 border-1">
+          <div class="container-xxl">
+            <h2 class="text-center">Image ratio</h2>
+            <p class="mt-16 text-center">
+              When you need to maintain a consistent image perspective across
+              all screen sizes, whether on desktop, tablet, or mobile
+            </p>
+            <div class="row mt-48">
+              <div class="col-3">
+                <h4 class="fw-bold">16:10</h4>
+              </div>
+              <figure class="col-9">
+                <img src="img/contact-section.webp" alt="" />
+                <figcaption>
+                  If the 16:10 ratio image is full screen. There is no border
+                  radius around
+                </figcaption>
+              </figure>
+            </div>
+            <div class="row mt-48">
+              <div class="col-3">
+                <h4 class="fw-bold">3:4</h4>
+              </div>
+              <figure class="col-md-5 col-sm-12">
+                <img src="img/qsign-decor1.webp" alt="" />
+                <figcaption>Mockups at desktop size.</figcaption>
+              </figure>
+              <figure class="col-md-4 col-sm-3">
+                <img src="img/qsign-decor1.webp" alt="" />
+                <figcaption>Mockups at mobile size.</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+        <!--Color-->
+        <article>
+          <div class="container-xxl">
+            <h3 class="mt-md-80 mt-40 text-center">Color</h3>
+            <p class="mt-16 text-center">Three levels of color distribution</p>
+            <div class="row">
+              <div class="col-md-4 col-sm-12 offset-md-2">
+                <h4 class="mt-48 fw-bold">Colors primitive</h4>
+                <figure class="mt-24">
+                  <img
+                    src="img/color-primitive.svg"
+                    alt="Precede color: blue, green, purple, ..."
+                  />
+                </figure>
+                <figcaption>Precede color: blue, green, purple, ...</figcaption>
+              </div>
+
+              <div class="col-md-4 col-sm-12">
+                <h4 class="mt-48 fw-bold">Theme</h4>
+                <figure class="mt-24">
+                  <img
+                    src="img/Theme.svg"
+                    alt="Theme color - light or dark mode"
+                  />
+                  <figcaption>
+                    Colors which belongs to light or dark mode
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <h4 class="mt-48 fw-bold text-center">Color semantic</h4>
+            <figure class="mt-24 text-center">
+              <img
+                src="img/color-semantic.svg"
+                alt="Color semantic - Text, stroke, Icons, Fill, ..."
+              />
+              <figcaption>
+                Colors which are meaningful: text, stroke, icons, background,
+                ...
+              </figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <!--color explanation-->
+        <figure class="mt-md-80 mt-40 text-center">
+          <img src="img/color-explanation.svg" alt="Color explanation" />
+          <figcaption>
+            Color token tree explanation. Credit to Practical UI e-book by Adham
+            Dannaway.
+          </figcaption>
+        </figure>
+
+        <!--Contrast and accessibility-->
+        <article class="mt-md-80 mt-40 border-1 py-40 py-md-80 bg-blue-20">
+          <div class="container-xxl">
+            <div class="col-md-6 col-sm-12 mx-auto">
+              <h2 class="text-center">Contrast and accessibility</h2>
+              <p class="mt-16 text-center">
+                This ensures that your eyes won’t strain when reading. Text and
+                other elements are easily readable without effort, following
+                WCAG AA and WCAG AAA guidelines.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-sm-12 mx-auto mt-48">
+              <figure>
+                <img src="img/contrast-check.webp" alt="" />
+              </figure>
+              <figcaption>
+                A Figma plugin assist me to check the contrast of text against
+                background
+              </figcaption>
+            </div>
+          </div>
+        </article>
+
+        <!--Spacing-->
+        <article class="mt-md-80 mt-40">
+          <div class="container-xxl">
+            <div class="col-md-6 col-sm-12 mx-auto">
+              <h3 class="fw-bold text-center">Spacing</h3>
+              <p class="mt-16 text-center">
+                I created a scale with a loop of 4
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 mx-auto mt-48">
+              <figure>
+                <img src="img/spacing.webp" alt="" />
+              </figure>
+              <figcaption>
+                A Figma plugin assist me to check the contrast of text against
+                background
+              </figcaption>
+            </div>
+          </div>
+        </article>
+
+        <!--shadows-->
+        <article class="mt-md-80 mt-40 border-1 py-40 py-md-80 bg-blue-20">
+          <div class="container-xxl">
+            <h3 class="fw-bold text-center">Shadows</h3>
+            <div class="row mt-48">
+              <div class="col-md-6 col-sm-12">
+                <div class="p-40 bg-white rounded-4 border-1 text-center h-100">
+                  <h4 class="fw-bold">Raise</h4>
+                  <figure class="mt-16">
+                    <img src="img/Raise.svg" alt="leverage level raise" />
+                  </figure>
+                  <p class="mt-16">
+                    Apply this scale to higher-level layout elements such as
+                    buttons, headers, footers, and other prominent elements
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 mt-32 mt-md-0">
+                <div class="p-40 bg-white rounded-4 border-1 text-center">
+                  <h4 class="fw-bold">Overlay</h4>
+                  <figure class="mt-16 mb-0">
+                    <img src="img/overlay.svg" alt="leverage level overlay" />
+                  </figure>
+                  <p class="">
+                    Apply this scale to the highest-level layout elements, such
+                    as dropdown menus and frames in Figma
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--Typography-->
+        <article class="mt-md-80 mt-40">
+          <div class="container-xxl">
+            <h3 class="text-center">Typography</h3>
+            <div class="row mt-48">
+              <div class="col-md-6 col-xs-12">
+                <figure>
+                  <img src="img/typo-deskop.svg" alt="" />
+                </figure>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <figure>
+                  <img src="img/typo-mobile.svg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--Border radius-->
+        <article class="mt-md-80 mt-40 border-1 bg-blue-20 py-40 py-md-80">
+          <div class="container-xxl">
+            <h3 class="text-center">Border radius</h3>
+            <div class="row mt-48">
+              <div class="col-md-6 mx-auto col-sm-12">
+                <figure>
+                  <img src="img/border-explain.svg" alt="" />
+                </figure>
+                <figcaption class="px-0">
+                  The border radius of the outer frame is smaller than that of
+                  the inner frame because larger objects require a larger radius
+                  to achieve a curved appearance
+                </figcaption>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!--development part-->
+      <section class="mt-128">
+        <div class="container-xxl">
+          <h1 class="text-center">Development part</h1>
+          <p class="mt-24 text-center">
+            I built the site using the Bootstrap 5 framework (HTML/CSS/JS). For
+            animations, I used Swup.js
+          </p>
+          <article class="mt-md-80 mt-40 text-center">
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <h4 class="fw-bold">Change default font size</h4>
+                <p class="mt-16">
+                  Typically, 1rem equals 16px, but I’ve reset it to 1rem = 10px
+                  for easier reference
+                </p>
+                <figure class="mt-48">
+                  <img
+                    src="img/default-fs.webp"
+                    alt="Default fontsize in bootstrap"
+                  />
+                </figure>
+              </div>
+            </div>
+          </article>
+          <!--reset font base-->
+          <article class="mt-md-80 mt-40 text-center">
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <h4 class="fw-bold">Re-set the font base</h4>
+                <p class="mt-16">
+                  I set the default font size to 18px and the default
+                  gutter/margin to 32px, as per the design. By default,
+                  Bootstrap uses a font size of 16px and a gutter of 24px
+                </p>
+                <figure class="mt-48">
+                  <img
+                    src="img/reset-font.webp"
+                    alt="Reset font base of bootstrap"
+                  />
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <!--Create a custom of spacing-->
+          <article class="mt-md-80 mt-40">
+            <h4 class="fw-bold text-center">Create a custom of spacing</h4>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <p class="mt-48">
+                  I ran a loop from 1px to 160px (0.1rem to 10rem) in
+                  _vars.scss. By default, Bootstrap only offers spacing options
+                  from 1rem to 5rem (1rem = 16px)
+                </p>
+                <figure>
+                  <img src="img/custom-spacing1.webp" alt="" />
+                </figure>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <p class="mt-48">
+                  As a result, the SCSS file converts to CSS classes like mt-0,
+                  mt-1, up to mt-160. This allows me to apply specific margins
+                  and paddings directly in HTML.
+                </p>
+                <figure>
+                  <img src="img/custom-spacing2.webp" alt="" />
+                </figure>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--End of container-->
+        <!--Animation-->
+        <article
+          class="py-40 py-md-80 border-1 py-40 py-md-80 bg-blue-20 mt-80"
+        >
+          <div class="container-xxl">
+            <div class="col-md-6 mx-auto">
+              <h2 class="text-center">Animation</h2>
+              <p class="mt-24 text-center">
+                I used the Swup JavaScript framework (https://swup.js.org/) to
+                help my site transition smoothly between pages
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Next project Submit-->
+      <div class="mt-128 mb-80 container-xxl">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <img class="img-fluid" src="img/q-sign-nextproject.webp" alt="" />
+          </div>
+
+          <div class="col-md-6 col-xs-12">
+            <div class="p-40 rounded-4 mt-16 mt-lg-0 h-100 bg-blue-50 border-1">
+              <a href="q-sign.html" class="text-strong"
+                ><h5>
+                  Next project
+                  <img
+                    class="pr-16"
+                    src="img/arrow.webp"
+                    width="24px"
+                    alt=""
+                  /></h5
+              ></a>
+
+              <h2 class="mt-md-80 mt-40">Q-sign</h2>
+              <p class="mt-16">
+                A digital solution that transform the traditional signature
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main body-->
+      <!-- footer-->
+      <footer class="py-40 box-raised">
+        <div
+          class="container-xxl d-flex flex-sm-row flex-column justify-content-between"
+        >
+          <div class="row">
+            <p class="uppercase-small mb-0">Project</p>
+            <ul class="nav ms-16 mt-16">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-weak me-16"
+                  aria-current="page"
+                  href="design-system.html"
+                  >Design system</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-weak me-16"
+                  aria-current="page"
+                  href="q-sign.html"
+                  >Q-sign</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak mx-16" href="submit.html"
+                  >Submit</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-weak mx-md-16 mx-0 mt-16 mt-md-0"
+                  href="bulkbox.html"
+                  >Bulk Box</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="mt-16 mt-sm-0">
+            <p class="uppercase-small mb-8">Contact</p>
+
+            <a
+              class="link-offset-2 text-weak link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="mailto: a38986640@gmail.com"
+              >Send me an email</a
+            >
+          </div>
+        </div>
+
+        <hr class="my-24" />
+
+        <div
+          class="container-xxl mt-40 mt-lg-0 d-flex flex-sm-row flex-column justify-content-between"
+        >
+          <p class="text-weak">
+            <img
+              class="align-middle"
+              src="img/blue-circle.webp"
+              alt="decoration"
+            />
+            Based in Toronto, Canada
+          </p>
+
+          <p class="text-weak">
+            <img
+              class="align-middle"
+              src="img/yellow-rec.webp"
+              alt="decoration"
+            />
+            WordPress projects:
+            <a
+              target="_blank"
+              class="text-weak fs-6 link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="https://tanhoangdesign.com"
+              >https://tanhoangdesign.com</a
+            >
+          </p>
+        </div>
+      </footer>
+      <!-- footer-->
+    </div>
+    <!-- container-xxl-->
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+  </body>
+</html>
