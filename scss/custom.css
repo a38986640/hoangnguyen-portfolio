@@ -82816,6 +82816,10 @@ h6, .h6 {
   font-size: 1.8rem;
 }
 
+.hero-image {
+  top: 340%;
+}
+
 .navbar-nav .nav-item a:hover {
   color: var(--text-strong);
 }
@@ -83077,6 +83081,23 @@ div iframe.desktop {
   padding: 10rem;
 }
 
+.linkedin,
+.behance {
+  fill: #737f86;
+}
+
+.linkedin:hover {
+  fill: #007bb5;
+}
+
+.behance:hover {
+  fill: #053eff;
+}
+
+main {
+  overflow-x: hidden;
+}
+
 /* mobile mockup*/
 .smartphone {
   position: relative;
@@ -83172,8 +83193,9 @@ div iframe.desktop {
 
 /* Infinite loop text*/
 .wrapper {
-  max-width: 97%;
+  max-width: 100%;
   overflow: hidden;
+  margin-left: 1rem;
   transform: rotate(5deg);
 }
 
@@ -83242,7 +83264,7 @@ footer .nav-link,
 footer a {
   text-decoration: underline;
   color: var(--text-weak);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 0;
 }
 
@@ -83313,43 +83335,45 @@ footer .nav-link.active {
   .stroke-text.h2 + h2,
   h2.stroke-text + .h2,
   .stroke-text.h2 + .h2 {
-    font-size: 4rem;
+    font-size: 3.2rem;
     line-height: 150%;
   }
   .mt-sm-n0 {
     margin-top: 0;
   }
   h1, .h1 {
-    font-size: 3.2rem;
-    line-height: normal;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
   }
   h2, .h2 {
-    font-size: 2.9rem;
-    line-height: normal;
+    font-size: 4rem;
+    line-height: 4.8rem;
   }
   h3, .h3 {
-    font-size: 2.6rem;
-    line-height: normal;
+    font-size: 3.3rem;
+    line-height: 4.1rem;
   }
   h4, .h4,
   .typewrite {
-    font-size: 2.3rem;
-    line-height: normal;
+    font-size: 2.8rem;
+    line-height: 3.6rem;
   }
   h5, .h5 {
-    font-size: 2rem;
-    line-height: normal;
+    font-size: 2.3rem;
+    line-height: 3.1rem;
   }
   h6, .h6 {
-    font-size: 1.4rem;
-    line-height: normal;
+    font-size: 1.9rem;
+    line-height: 2.7rem;
   }
   p,
   li {
     font-size: 1.6rem;
+    line-height: 2.4rem;
   }
   p.text-small {
     font-size: 1.4rem;
+    line-height: 2rem;
   }
   .grey-shape {
     width: 30rem;
@@ -83357,7 +83381,7 @@ footer .nav-link.active {
     margin-top: 33rem;
   }
   .hero-image {
-    top: 600%;
+    top: 420%;
   }
   .contact-section {
     background-position: 14%;
