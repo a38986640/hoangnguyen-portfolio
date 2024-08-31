@@ -38,7 +38,14 @@
   <body>
     <main
       id="swup"
-      class="transition-main d-flex flex-column vh-100 justify-content-between">
+      class="transition-main d-flex flex-column vh-100 justify-content-between"
+      style="
+        background: linear-gradient(
+          180deg,
+          rgba(0, 65, 102, 0.14) 0%,
+          rgba(250, 252, 252, 0) 100%
+        );
+      ">
       <!-- header-->
       <header>
         <div class="container-xxl">
@@ -173,7 +180,7 @@
       <!-- header-->
       <!--  body-->
 
-      <div
+      <section
         class="container-xxl d-flex align-items-center flex-column mt-40 mt-lg-0">
         <p class="text-center mb-0 text-weak">
           Hi, my name is Vincent and I am a
@@ -186,12 +193,16 @@
             src="img/hero-image.webp"
             width="300"
             alt="Vincent Nguyen picture" />
+          <img
+            class="position-absolute z-n1"
+            src="img/oval-skill1.svg"
+            alt="" />
         </div>
 
-        <div class="grey-shape position-relative">
+        <div class="grey-shape position-relative z-3">
           <h5
             class="position-absolute top-0 start-50 translate-middle text-grey-solid-500">
-            and
+            AND
           </h5>
           <h2
             class="text-nowrap mt-3 mt-md-0 stroke-text position-absolute top-100 start-50 translate-middle">
@@ -204,7 +215,7 @@
           role="button"
           >See my works</a
         >
-      </div>
+      </section>
       <!-- main body-->
       <!-- footer-->
       <footer
@@ -216,7 +227,7 @@
 
         <p class="text-small">
           <img src="img/yellow-rec.svg" alt="decoration" />
-          WordPress projects:
+          Freelance projects:
           <a
             target="_blank"
             class=""

@@ -82706,6 +82706,10 @@ body {
   color: var(--text-brand);
 }
 
+.grey-solid-500 {
+  color: var(--grey-solid-500);
+}
+
 .text-white {
   color: var(--white);
 }
@@ -82808,6 +82812,10 @@ h6, .h6 {
   font-weight: bold;
   text-transform: uppercase;
   font-family: "fira sans", sans-serif;
+}
+
+.translate-center {
+  transform: translate(60%, -50%);
 }
 
 .navbar-nav .nav-item a {
@@ -82931,8 +82939,8 @@ footer li {
 }
 
 .grey-shape {
-  width: 493.74px;
-  height: 53.517px;
+  width: 453px;
+  height: 65px;
   flex-shrink: 0;
   background: linear-gradient(180deg, #d9d9d9 0%, #fff 89.14%);
   margin-top: 30rem;
