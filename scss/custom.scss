@@ -31,6 +31,8 @@ body {
   --grey-solid-700: rgb(69, 73, 77);
   --grey-solid-500: rgb(121, 125, 128);
 
+  --grey-neutral-50: rgba(0, 0, 0, 0.05);
+
   --white: #fff;
   --blue-200: rgba(20, 81, 116, 0.2);
   --blue-50: rgba(20, 81, 116, 0.05);
@@ -111,18 +113,18 @@ p.text-small {
 h1 {
   font-size: 6.1rem;
   font-weight: bold;
-  line-height: normal;
+  line-height: 6.9rem;
 }
 h2 {
   font-size: 4.9rem;
   line-height: normal;
-  font-weight: bold;
+  font-weight: 5.7rem;
 }
 h3,
 .typewrite {
   font-size: 3.9rem;
   font-weight: bold;
-  line-height: normal;
+  line-height: 4.7rem;
 }
 h4 {
   font-size: 3.1rem;
@@ -131,12 +133,12 @@ h4 {
 h5 {
   font-size: 2.5rem;
   font-weight: bold;
-  line-height: normal;
+  line-height: 3.3rem;
 }
 
 h6 {
   font-size: 1.4rem;
-  line-height: normal;
+  line-height: 2.2;
   letter-spacing: 0.2rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -319,6 +321,18 @@ footer li {
   animation-range: exit;
 }
 
+pre {
+  background-color: var(--grey-neutral-50);
+  padding: 1.6rem;
+  color: var(--text-weak);
+  border: 1px solid var(--stroke-weak);
+  word-wrap: normal;
+  border-radius: 1.6rem;
+}
+pre code {
+  font-size: 1.6rem;
+}
+
 @keyframes image-animation {
   0% {
     opacity: 1;
@@ -422,8 +436,14 @@ div iframe.desktop {
 .behance:hover {
   fill: #053eff;
 }
-main {
+main,
+#swup {
   overflow-x: hidden;
+}
+
+#two {
+  position: relative; /* or absolute/fixed */
+  transition: transform 0.2s ease-out;
 }
 
 /* mobile mockup*/
