@@ -82972,6 +82972,11 @@ footer li {
   padding: 32px;
 }
 
+.q-sign-blurry {
+  background-image: url("../img/Q-signBlurry.webp");
+  background-size: cover;
+}
+
 .circle-number {
   width: 3.2rem;
   height: 3.2rem;
